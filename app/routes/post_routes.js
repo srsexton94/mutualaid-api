@@ -28,7 +28,7 @@ const requireToken = passport.authenticate('bearer', { session: false })
 const router = express.Router()
 
 // INDEX - GET
-router.get('/posts', requireToken, (req, res, next) => {
+router.get('/posts', (req, res, next) => {
   Post.find()
     .then(posts => {
       // `posts` will be an array of Mongoose documents
@@ -43,7 +43,7 @@ router.get('/posts', requireToken, (req, res, next) => {
 })
 
 // SHOW - GET
-router.get('/posts/:id', requireToken, (req, res, next) => {
+router.get('/posts/:id', (req, res, next) => {
   // req.params.id will be set based on the `:id` in the route
   Post.findById(req.params.id)
     .then(handle404)

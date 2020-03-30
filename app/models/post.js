@@ -9,12 +9,12 @@ const postSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  label: {
+  type: {
     type: String,
     required: true
   },
   zip: {
-    type: Number,
+    type: String,
     required: true
   },
   owner: {
