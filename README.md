@@ -65,7 +65,7 @@ npm run server
 * Display networks and/or offer posts on a map
 
 ## ERD
-![](./images/erd.png?raw=true)
+![](./images/erd.png)
 
 ### Extra Guidance
 `server.js` - where the actual Express `app` object is created, where
