@@ -9,6 +9,10 @@ const postSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  label: {
+    type: String,
+    required: true
+  },
   zip: {
     type: Number,
     required: true
