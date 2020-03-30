@@ -13,7 +13,8 @@ This repo is the API for this project... <!-- add more descriptive info -->
 ## Technologies
 
 ## Dependencies
-* [GA Express Api Template]()
+* [GA Express Api Template](https://git.generalassemb.ly/ga-wdi-boston/express-api-template)
+* [GA Express Deployment Guide](https://git.generalassemb.ly/ga-wdi-boston/express-api-deployment-guide)
 * `npm install`, `-g nodemon`
 * `npm run server`, starts express server
 * `npm test`, runs automated tests
