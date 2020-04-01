@@ -17,6 +17,10 @@ const postSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  sourceUrl: {
+    type: String,
+    required: false
+  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
