@@ -56,6 +56,8 @@ Additionally, though working independently, a [project board](https://github.com
   - view a specific subdivision of posts
   - view a specific post
   - create, update, and delete my own posts
+- As a potential contributor to mutualaid-client
+  - I would like to have a document that details the agreed workflow so that I can get an idea of how to get started contributing
 
 ## ERD
 ![](./images/erd.png)
